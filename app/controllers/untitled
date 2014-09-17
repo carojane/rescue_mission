@@ -1,0 +1,50 @@
+1. DONE
+
+questions/new
+table questions
+
+:title        at least 40 characters long
+:description  at least 150 characters long
+:timestamp
+errors if I fill out the form incorrectly
+
+2.
+
+questions/index
+:title Question.all
+  - link to question/show for each question
+order by time
+
+3.
+
+questions/show
+question.title
+question.description
+
+linked from question/index
+
+4.
+
+answers/new on questions/show page
+:description 50 characters
+:timestamp
+error if entered incorrectly
+Question has_many :answers
+Answer belongs_to :question
+
+5.
+
+answers listed on questions/show
+ordered by time
+
+6.
+
+questions/update
+error if entered incorrectly
+edit page connected to questions/show
+
+7.
+
+questions/destroy
+delete link from questions/show and questions/index
+<!-- dependent: :destroy on answers -->
