@@ -8,14 +8,14 @@ table questions
 :timestamp
 errors if I fill out the form incorrectly
 
-2.
+2. DONE
 
 questions/index
 :title Question.all
   - link to question/show for each question
 order by time
 
-3.
+3. DONE
 
 questions/show
 question.title
@@ -28,7 +28,8 @@ linked from question/index
 answers/new on questions/show page
 :description 50 characters
 :timestamp
-error if entered incorrectly
+#error if entered incorrectly
+#errors not logging because validation not happening
 Question has_many :answers
 Answer belongs_to :question
 

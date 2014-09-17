@@ -4,4 +4,24 @@
   <%= @question.description %>
 </p>
 
+<h2>Answers:</h2>
+
+<ol>
+<% @question.answers.order('created_at DESC').each do |answer| %>
+  <li>
+    <%= answer.description %>
+  </li>
+<% end %>
+</ol>
+
+<%= form_for([@question, @question.answers.build]) do |f| %>
+  <p>
+    <%= f.label 'Add an answer:' %><br>
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
 <%= link_to 'All Questions', questions_path %>
