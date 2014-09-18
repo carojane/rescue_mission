@@ -6,7 +6,6 @@ class AnswersController < ApplicationController
     if @answer.errors.any?
     end
       redirect_to question_path(@question)
-
   end
 
   private

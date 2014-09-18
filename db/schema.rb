@@ -11,16 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140917225524) do
+ActiveRecord::Schema.define(version: 20140918154611) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "answers", force: true do |t|
-    t.text     "description", null: false
+    t.text     "description",                 null: false
     t.integer  "question_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "best",        default: false
   end
 
   add_index "answers", ["question_id"], name: "index_answers_on_question_id", using: :btree

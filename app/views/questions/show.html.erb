@@ -9,9 +9,15 @@
 <h2>Answers:</h2>
 
 <ol>
-<% @question.answers.order('created_at DESC').each do |answer| %>
+<% @question.answers.order(best: :desc, created_at: :desc).each do |answer| %>
+
   <li>
     <%= markdown(answer.description) %>
+    <% if answer.best == true %>
+      <div class = bestAnswer><strong>Best Answer</strong></div>
+    <% else %>
+
+    <% end %>
   </li>
 <% end %>
 </ol>
