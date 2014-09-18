@@ -8,9 +8,9 @@ So that I can receive help from others
 
 ###Acceptance Criteria
 
-- [ ] I must provide a title that is at least 40 characters long
-- [ ] I must provide a description that is at least 150 characters long
-- [ ] I must be presented with errors if I fill out the form incorrectly
+- [X] I must provide a title that is at least 40 characters long
+- [X] I must provide a description that is at least 150 characters long
+- [X] I must be presented with errors if I fill out the form incorrectly
 
 ##View All Questions
 
@@ -20,8 +20,8 @@ So that I can help others
 
 ###Acceptance Criteria
 
-- [ ] I must see the title of each question
-- [ ] I must see questions listed in order, most recently posted first
+- [X] I must see the title of each question
+- [X] I must see questions listed in order, most recently posted first
 
 ##View a Question's Details
 
@@ -31,9 +31,9 @@ So that I can effectively understand the question
 
 ###Acceptance Criteria
 
-- [ ] I must be able to get to this page from the questions index
-- [ ] I must see the question's title
-- [ ] I must see the question's description
+- [X] I must be able to get to this page from the questions index
+- [X] I must see the question's title
+- [X] I must see the question's description
 
 ##Answering a Question
 
@@ -43,8 +43,8 @@ So that I can help them solve their problem
 
 ###Acceptance Criteria
 
-- [ ] I must be on the question detail page
-- [ ] I must provide a description that is at least 50 characters long
+- [X] I must be on the question detail page
+- [X] I must provide a description that is at least 50 characters long
 - [ ] I must be presented with errors if I fill out the form incorrectly
 
 ##Viewing a Question's Answers
@@ -55,9 +55,9 @@ So that I can learn from the answer
 
 ###Acceptance Criteria
 
-- [ ] I must be on the question detail page
-- [ ] I must only see answers to the question I'm viewing
-- [ ] I must see all answers listed in order, most recent last
+- [X] I must be on the question detail page
+- [X] I must only see answers to the question I'm viewing
+- [X] I must see all answers listed in order, most recent last
 
 ##Editing a Question
 
@@ -67,9 +67,9 @@ So that I can correct any mistakes or add updates
 
 ###Acceptance Criteria
 
-- [ ] I must provide valid information
-- [ ] I must be presented with errors if I fill out the form incorrectly
-- [ ] I must be able to get to the edit page from the question details page
+- [X] I must provide valid information
+- [X] I must be presented with errors if I fill out the form incorrectly
+- [X] I must be able to get to the edit page from the question details page
 
 ##Deleting a Question
 
@@ -79,9 +79,9 @@ So that I can delete duplicate questions
 
 ###Acceptance Criteria
 
-- [ ] I must be able delete a question from the question edit page
-- [ ] I must be able delete a question from the question details page
-- [ ] All answers associated with the question must also be deleted
+- [X] I must be able delete a question from the question edit page
+- [X] I must be able delete a question from the question details page
+- [X] All answers associated with the question must also be deleted
 
 #Non-core User Stories
 
@@ -93,8 +93,8 @@ So I can easily format my questions and answers
 
 ###Acceptance Criteria
 
-- [ ] I can write my questions and answers using markdown syntax
-- [ ] Questions and answers, when shown, should be the HTML rendered from the
+- [X] I can write my questions and answers using markdown syntax
+- [X] Questions and answers, when shown, should be the HTML rendered from the
   markdown
 
 ##Choosing an Answer
