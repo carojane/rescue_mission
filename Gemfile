@@ -39,3 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'pry'
+gem 'redcarpet'
+gem 'albino'
+gem 'nokogiri'

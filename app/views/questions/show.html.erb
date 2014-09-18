@@ -1,9 +1,9 @@
-<h1><%= @question.title %></h1>
+<h1><%= markdown(@question.title) %></h1>
 <%= link_to 'Edit', edit_question_path(@question) %>
-| <%= link_to 'Destroy', question_path(@question), method: :delete, data: { confirm: 'Are you sure?' } %>
+| <%= link_to 'Delete', question_path(@question), method: :delete, data: { confirm: 'Are you sure?' } %>
 
 <p>
-  <%= @question.description %>
+  <%= markdown(@question.description) %>
 </p>
 
 <h2>Answers:</h2>
@@ -11,7 +11,7 @@
 <ol>
 <% @question.answers.order('created_at DESC').each do |answer| %>
   <li>
-    <%= answer.description %>
+    <%= markdown(answer.description) %>
   </li>
 <% end %>
 </ol>
