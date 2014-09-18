@@ -16,7 +16,7 @@
     <% if answer.best == true %>
       <div class = bestAnswer><strong>Best Answer</strong></div>
     <% else %>
-
+      <%= link_to 'select as best answer', edit_question_answer_path(@question.id, answer.id) %>
     <% end %>
   </li>
 <% end %>
