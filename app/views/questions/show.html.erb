@@ -10,7 +10,6 @@
 
 <ol>
 <% @question.answers.order(best: :desc, created_at: :desc).each do |answer| %>
-
   <li>
     <%= markdown(answer.description) %>
     <% if answer.best == true %>

@@ -105,9 +105,9 @@ So that others can quickly find the answer
 
 ###Acceptance Criteria
 
-- [ ] I must be on the question detail page
-- [ ] I must be able mark an answer as the best
-- [ ] I must see the "best" answer above all other answers in the answer list
+- [X] I must be on the question detail page
+- [X] I must be able mark an answer as the best
+- [X] I must see the "best" answer above all other answers in the answer list
 
 ##User Authentication
 
