@@ -3,7 +3,10 @@ class AnswersController < ApplicationController
     @question = Question.find(params[:question_id])
     @answer = @question.answers.create(answer_params)
 
-    redirect_to question_path(@question)
+    if @answer.errors.any?
+    end
+      redirect_to question_path(@question)
+
   end
 
   private
