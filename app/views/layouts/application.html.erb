@@ -13,9 +13,7 @@
   <%= link_to "Sign Out", signout_path %>
 <% else %>
   Sign in with:
-  <%= link_to "Twitter", "/auth/twitter/callback" %>
-  <%= link_to "Facebook", "/auth/facebook/callback"%>
-  <%= link_to "Github", "/auth/github/callback"%>
+  <%= link_to "Github", "/auth/github"%>
 <% end %>
 
 <%= yield %>
