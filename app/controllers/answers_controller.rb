@@ -4,8 +4,11 @@ class AnswersController < ApplicationController
     @answer = @question.answers.create(answer_params)
 
     if @answer.errors.any?
-    end
+      flash[@answer.errors]
       redirect_to question_path(@question)
+    else
+      redirect_to question_path(@question)
+    end
   end
 
   def edit
