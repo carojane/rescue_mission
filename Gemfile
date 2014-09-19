@@ -43,5 +43,7 @@ gem 'redcarpet'
 gem 'albino'
 gem 'nokogiri'
 gem 'omniauth-github'
-gem 'omniauth-twitter'
-gem 'omniauth-facebook'
+
+group :development, :test do
+  gem 'dotenv-rails'
+end

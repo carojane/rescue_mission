@@ -117,7 +117,7 @@ So that my questions and answers can be associated to me
 
 ###Acceptance Criteria
 
-- [ ] I must be able to sign in using either GitHub, Twitter, or Facebook (choose
+- [X] I must be able to sign in using either GitHub, Twitter, or Facebook (choose
   one)
 
 ##User Signs Out
@@ -128,7 +128,7 @@ So that other users of my computer can't pretend to be me
 
 ###Acceptance Criteria
 
-- [ ] I must be able to sign out from any page
+- [X] I must be able to sign out from any page
 
 ##Prevent Users From Editing Other Another User's Questions
 
@@ -138,7 +138,7 @@ So that malicious users can't mess with my question
 
 ###Acceptance Criteria
 
-- [ ] I must be signed in
+- [X] I must be signed in
 - [ ] I must be able to edit a question that I posted
 - [ ] I can't edit a question that was posted by another user
 
@@ -150,7 +150,7 @@ So that malicious users can't mess with my question
 
 ###Acceptance Criteria
 
-- [ ] I must be signed in
+- [X] I must be signed in
 - [ ] I must be able to choose the "best" answer for a question that I posted
 - [ ] I can't choose the best answer for a question that was posted by another user
 
@@ -162,6 +162,6 @@ So that malicious users can't mess with my question
 
 ###Acceptance Criteria
 
-- [ ] I must be signed in
+- [X] I must be signed in
 - [ ] I must be able to delete a question that I posted
 - [ ] I can't delete a question that was posted by another user
